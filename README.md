@@ -1,2 +1,2 @@
 # HTML-CSS-Project
-This my first website I made with HTML &amp; CSS
+My first website that I made with HTML &amp; CSS
