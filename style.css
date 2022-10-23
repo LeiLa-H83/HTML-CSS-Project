@@ -1,0 +1,318 @@
+                @import url(font-awesome.min.css);
+                * {
+                    margin: 0px;
+                }
+                
+                body {
+                    font-family: 'Raleway', Helvetica, sans-serif;
+                    color: rgb(156, 149, 149);
+                    margin: 0px
+                }
+                
+                .header {
+                    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+                    background-position: center center;
+                    background-size: cover;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+                
+                .nav {
+                    text-align: right;
+                }
+                
+                .nav li {
+                    list-style-type: none;
+                }
+                
+                .nav ul li {
+                    display: inline;
+                    padding: 0 15px;
+                }
+                
+                .nav ul li a {
+                    color: rgb(170, 168, 168);
+                    transition: color .2s ease-in-out;
+                }
+                
+                .header .top-menu h1 {
+                    float: left;
+                }
+                
+                .top-menu {
+                    padding: 40px;
+                }
+                
+                .top-menu ul li[type=button] {
+                    background-color: white;
+                    border-radius: 10px;
+                    text-align: center;
+                    padding: 5px;
+                    color: rgb(105, 102, 102);
+                }
+                
+                .nav ul li a:hover {
+                    color: #fff;
+                }
+                
+                .banner-content {
+                    text-align: center;
+                    color: #fff;
+                    line-height: 80px;
+                    margin: 80px auto 0px auto;
+                    padding-bottom: 100px;
+                }
+                
+                .banner-content h2 {
+                    font-size: 5vw;
+                    font-weight: bold;
+                }
+                
+                .banner-content p {
+                    font-size: 2vw;
+                }
+                
+                .header .banner-content a {
+                    background-color: rgb(40, 188, 247);
+                    border-radius: 20px;
+                    text-align: center;
+                    padding: 10px 15px;
+                }
+                
+                .services {
+                    background-color: rgb(240, 245, 250);
+                    padding: 100px;
+                    text-align: center;
+                    border-top: 1.5px solid rgb(189, 181, 181);
+                    border-bottom: 1.5px solid rgb(189, 181, 181);
+                    margin: 0px auto;
+                }
+                
+                .services-header h1 {
+                    color: black;
+                }
+                
+                .services-header p {
+                    color: rgb(104, 87, 87);
+                    font-size: 20px;
+                }
+                
+                .services-content div {
+                    width: calc(calc(100% / 3) - 60px);
+                    border: 1.5px solid rgb(189, 181, 181);
+                    border-radius: 4px;
+                    background-color: #fff;
+                    display: inline;
+                    float: left;
+                    margin: 40px 25px 0 25px;
+                    text-align: center;
+                }
+                
+                .services-content:after,
+                .services-content:before {
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+                
+                .services-left i {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    color: #fff;
+                    background-color: rgb(40, 188, 247);
+                    text-align: center;
+                    padding: 30px;
+                    font-size: 50px;
+                    margin-top: 40px;
+                }
+                
+                .services-center i {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    color: #fff;
+                    background-color: rgb(40, 247, 50);
+                    text-align: center;
+                    padding: 30px;
+                    font-size: 50px;
+                    margin-top: 40px;
+                }
+                
+                .services-right i {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    color: #fff;
+                    background-color: rgb(247, 40, 126);
+                    text-align: center;
+                    padding: 30px;
+                    font-size: 50px;
+                    margin-top: 40px;
+                }
+                
+                .services-content h3 {
+                    margin: 20px auto;
+                }
+                
+                .services-content p {
+                    font-size: small;
+                    margin: auto 30px 20px 30px;
+                    line-height: 18px;
+                }
+                
+                @media only screen and (max-width:835px) {
+                    .services-content div {
+                        width: 100%;
+                        padding: 60px 0;
+                        margin: 10px 0;
+                    }
+                }
+                
+                .about .container {
+                    background-color: #fff;
+                    margin: 0px auto;
+                    text-align: center;
+                }
+                
+                .about-header {
+                    padding: 60px 0 40px 0;
+                    line-height: 40px;
+                }
+                
+                .about-header h1 {
+                    color: black;
+                }
+                
+                .about-content {
+                    border-top: 1px solid rgb(209, 204, 204);
+                    border-bottom: 1px solid rgb(209, 204, 204);
+                    margin: 0px auto;
+                    width: 80%;
+                    padding-top: 60px;
+                }
+                
+                .about-content>* {
+                    float: left;
+                }
+                
+                .about-content:after,
+                .about-content:before {
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+                
+                .profile {
+                    width: 25%;
+                    margin-bottom: 60px;
+                }
+                
+                .profile img {
+                    float: left;
+                    border-radius: 50%;
+                    margin-left: 35px;
+                }
+                
+                .profile h4 {
+                    color: black;
+                    margin-top: 30px;
+                    text-align: left;
+                    padding: 0px 0px 10px 140px;
+                }
+                
+                .profile h6 {
+                    text-align: left;
+                    padding-left: 140px;
+                }
+                
+                @media only screen and (max-width:850px) {
+                    .profile {
+                        width: 50%;
+                    }
+                }
+                
+                @media only screen and (max-width:550px) {
+                    .profile {
+                        width: 100%;
+                        margin: 0px;
+                    }
+                }
+                
+                .about-footer {
+                    text-align: center;
+                    padding: 80px;
+                }
+                
+                .about-footer a {
+                    background-color: rgb(40, 188, 247);
+                    border-radius: 20px;
+                    text-align: center;
+                    padding: 10px 15px;
+                }
+                
+                .about-footer h6 {
+                    padding-bottom: 40px;
+                    width: 65%;
+                    margin: 0 auto;
+                }
+                
+                .contact .container {
+                    padding: 50px;
+                    background-color: rgb(40, 188, 247);
+                    color: white;
+                    text-align: center;
+                    margin: 0px auto;
+                }
+                
+                .contact p {
+                    padding-top: 15px;
+                }
+                
+                .contact-content input[type=text],
+                input[type=email] {
+                    width: 240px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 60px;
+                }
+                
+                .contact-content textarea {
+                    width: 488px;
+                    height: 190px;
+                    border: none;
+                    border-radius: 10px;
+                    margin-top: 5px;
+                    font-family: 'Raleway', Helvetica, sans-serif;
+                }
+                
+                .contact-content input[type=button] {
+                    background-color: rgb(67, 69, 70);
+                    border-radius: 20px;
+                    text-align: center;
+                    padding: 12px 40px;
+                    color: #fff;
+                    border: none;
+                    margin-top: 15px;
+                }
+                
+                .footer {
+                    padding: 70px;
+                    background-color: rgb(67, 69, 70);
+                }
+                
+                .copyright li {
+                    color: rgb(156, 149, 149);
+                    list-style: none;
+                    display: inline;
+                    font-size: 15px;
+                    margin-right: 20px;
+                }
+                
+                .footer a {
+                    color: rgb(156, 149, 149);
+                }
