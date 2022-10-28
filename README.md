@@ -1,2 +1,2 @@
 # HTML-CSS-Project
-My first website that I made with HTML &amp; CSS
+My first responsive website that I made with HTML &amp; CSS
